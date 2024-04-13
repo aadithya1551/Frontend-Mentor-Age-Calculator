@@ -1,0 +1,134 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   background-color:hsl(0, 0%, 94%);
+}
+
+.container{
+   background-color: hsl(0, 0%, 100%);
+   padding: 40px;
+   border-radius: 15px;
+   border-bottom-right-radius: 150px;
+}
+
+.input{
+   width: 430px;
+   border-bottom: 1px solid hsl(0, 0%, 86%);
+   padding-bottom: 30px;
+}
+
+.input ul{
+   display: flex;
+   list-style-type: none;
+}
+
+.input ul li{
+   margin-right: 30px;
+}
+
+.input label{
+   font-size: 11px;
+   font-weight: 600;
+   color: hsl(0, 1%, 44%);
+}
+
+li input{
+   width: 80px;
+   font-size: 20px;
+   padding: 7px;
+   border: 1px solid  hsl(0, 0%, 86%);
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.input img{
+   position: absolute;
+   right: 430px;
+   z-index: 1;
+}
+
+.output{
+   margin: 30px;
+   margin-top: 50px;
+}
+.output section{
+   margin: -25px;
+}
+
+.output h1{
+   font-size: 3.8em;
+   font-style: oblique;
+   -webkit-text-stroke-width: 3.5px;
+}
+
+h1 span{
+   color: hsl(259, 100%, 65%);
+   font-style: italic;
+}
+
+#error,#error1,#error2{
+   color: red;
+   font-size: 13px;
+   text-align: center;
+}
+
+@media screen and (max-width: 600px){
+   .container{
+      max-width: 250px;
+      padding: 20px;
+      padding-bottom: 50px;
+      border-bottom-right-radius: 100px;
+   }
+   
+   .input{
+      margin: 0px;
+      max-width: 250px;
+      border-bottom: 1px solid hsl(0, 0%, 86%);
+      padding-bottom: 50px;
+   }
+
+   li input{
+      width: 45px;
+      font-size: 15px;
+      padding: 7px;
+      border: 1px solid  hsl(0, 0%, 86%);
+      border-radius: 5px;
+      font-weight: bold;
+   }
+   
+   .input img{
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      right: 150px;
+      top: 195px;
+      z-index: 1;
+   }
+
+   .output{
+      margin: 30px;
+      margin-top: 70px;
+      font-size: 13px;
+   }
+   .output section{
+      margin: -20px;
+   }
+   
+   .output h1{
+      font-size: 3em;
+      font-style: oblique;
+      -webkit-text-stroke-width: 3.7px;
+   }
+   
+
+}

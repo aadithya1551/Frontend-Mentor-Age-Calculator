@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images" href="assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="input">
+      <ul>
+        <li>
+          <form>
+            <label id="head">DAY</label><br>
+            <input type="text" placeholder="DD" id="day">
+            <p id="error"></p>
+          </form>
+        </li>
+        <li>
+          <form>
+            <label id="head1">MONTH</label><br>
+            <input type="text" placeholder="MM" id="month">
+            <p id="error1"></p>
+          </form>
+        </li>
+        <li>
+          <form>
+            <label id="head2">YEAR</label><br>
+            <input type="text" placeholder="YYYY" id="year">
+            <p id="error2"></p>
+          </form>
+        </li>
+      </ul>
+      <img src="arrow-down.png" alt="" onclick="get()">
+    </div>
+
+    <div class="output">
+      <section>
+        <h1> <span id="showyear">- - </span>years</h1>
+      </section>
+      <section>
+        <h1> <span id="showmonth">- - </span>months</h1>
+      </section>
+      <section>
+        <h1> <span id="showday">- - </span>days</h1>
+      </section>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
